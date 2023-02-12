@@ -1,0 +1,41 @@
+.Dashboard {
+    background-image: linear-gradient(to bottom right, #1cb4de91, #0c457f9d);
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px 15px 15px 5rem;
+}
+
+
+.Box {
+    background-color: #010148;
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.Box hr {
+    border-top: none;
+    border-bottom: 1px solid white;
+    width: 90%;
+}
+ 
+.Box h5 {
+    color: white;
+    margin: 0 auto;
+}
+
+.Box div {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}

@@ -1,0 +1,49 @@
+.BgContainer {
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.InnerContainer {
+    border-radius: 4px;
+    padding: 3rem 1rem;
+    position: relative;
+    color: white;
+    background-color: #0C457F;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 999;
+    cursor: auto;
+    box-shadow: 2px -2px 7px rgba(152, 152, 152, 0.353);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.InnerContainer div {
+    font-size: 1rem;
+}
+
+.InnerContainer div strong {
+    font-size: 1.3rem;
+    margin: 0 3px;
+}
+
+
+/* Smaller Screens */
+@media (max-width: 800px)  {
+
+    .InnerContainer {
+        width: 80%;
+    }
+    
+}

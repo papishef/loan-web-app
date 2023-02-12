@@ -1,0 +1,64 @@
+{
+  "name": "loan-project",
+  "version": "0.1.0",
+  "proxy": "http://127.0.0.1:3030",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fullcalendar/core": "^5.11.3",
+    "@fullcalendar/daygrid": "^5.11.3",
+    "@fullcalendar/list": "^5.11.3",
+    "@fullcalendar/timegrid": "^5.11.3",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
+    "@mui/styles": "^5.11.2",
+    "@mui/x-data-grid": "^5.17.12",
+    "@nivo/core": "^0.55.0",
+    "@nivo/line": "^0.55.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.6",
+    "eslint-plugin-react-hooks": "^5.0.0-next-ee8509801-20230117",
+    "formik": "^2.2.9",
+    "hamburger-react": "^2.5.0",
+    "radium": "^0.26.2",
+    "react": "^18.2.0",
+    "react-animated-text-content": "^1.0.1",
+    "react-animations": "^1.0.0",
+    "react-dom": "^18.2.0",
+    "react-pro-sidebar": "^1.0.0-alpha.7",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^2.1.3",
+    "react-slideshow-image": "^4.0.5",
+    "react-spinners": "^0.13.7",
+    "typescript": "^4.9.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

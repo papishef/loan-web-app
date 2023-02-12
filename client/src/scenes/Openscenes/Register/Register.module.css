@@ -1,0 +1,59 @@
+.ContainerOuter {
+    width: 100vw;
+    position: relative;
+    padding: 7rem 0;
+    display: flex;
+    background-image: linear-gradient(to bottom right, #1CB5DE, #0C457F, #010148);
+}
+
+.formContainer {
+    width: 70%;
+    padding: 1rem;
+    border-radius: 6px;
+    margin: auto;
+    line-height: 1.3;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px rgba(38, 38, 38, 0.362);
+    background-color: rgba(255, 255, 255, 0.819);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+form > h3 {
+    margin: 0;
+    text-align: left;
+}
+
+form > span {
+    font-size: .9rem;
+    color: #2f4350;
+    line-height: 0;
+}
+
+form > hr {
+    width: 100%;
+    border: 0;
+    margin-bottom: 1.2rem;
+    border-bottom: 1.5px solid #0c457f65;
+}
+
+
+
+
+
+
+/* Smaller Screens */
+@media (max-width: 900px)  {
+
+    .ContainerOuter {
+        top: .5rem;
+    }
+
+    .formContainer {
+        width: 90%;
+    }
+    
+}
+

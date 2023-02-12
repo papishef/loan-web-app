@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+html,
+body,
+#root,
+.app {
+  margin: 0;
+  height: 100%;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+h1 {
+  color: rgb(75, 75, 135);
+  font-size: 4rem;
+}
+
+h2 {
+  color: rgb(228, 238, 251);
+}
+
+h3 {
+  color: #010148;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: #1d92b3;
+  display: block;
+  position: relative;
+  top: 1.2rem;
+}
+
+
+p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(228, 238, 251);
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #010148;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background: #0C457F;
+}
+
+
+@media (max-width: 1024px)  {
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+}

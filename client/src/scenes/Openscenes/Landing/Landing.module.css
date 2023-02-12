@@ -1,0 +1,271 @@
+
+
+.TopGrid {
+    height: 78vh;
+    width: 100vw;
+    margin-bottom: 1rem;
+    margin-top: 4.9rem !important;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-image: linear-gradient( rgba(160, 185, 219, 0.408),rgba(235, 235, 246, 0.819));
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+
+.ImgGrid {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+    transition: 0.4s ease-in;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-transition: 0.4s ease-in;
+    -moz-transition: 0.4s ease-in;
+    -ms-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+}
+
+.ImgGrid:hover {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+
+.TopbarRightGrid {
+    height: 100%;
+    width: 100vw;
+    padding: 0;
+}
+
+.EachSlide {
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    height: 76vh;
+    margin: 0;
+    width: 100%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.AnimatedSubtextHeader {
+    display: inline-block;
+    background-color: rgba(240, 248, 255, 0.571);
+}
+
+.AnimatedSubtext {
+  color: rgb(75, 75, 135);
+  font-size: 1.4rem;
+  margin: 3.5rem;
+  background-color: rgba(240, 248, 255, 0.571);
+}
+
+.SecondGrid {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1.2rem 0;
+    background-image: linear-gradient( rgba(235, 235, 246, 0.819), rgba(160, 185, 219, 0.408));
+}
+
+.SecondGridCircles {
+    background-color: #0C457F;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    padding: 2rem;
+    margin: auto;
+    border: 2px solid rgba(240, 248, 255, 0.571);
+    box-shadow: 4px 4px 10px rgba(75, 75, 135, 0.555);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.LoanTypeIcons {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    transition: all 1s ease-in;
+    padding: 1rem;
+    color: rgb(228, 238, 251);
+    background-color: #0C457F;
+    border: 2px solid rgba(240, 248, 255, 0.686);
+    margin-bottom: -1.5rem;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+}
+
+
+.LightGrid {
+    width: 100vw;
+    padding: 3rem 10rem;
+    text-align: center !important;
+    box-sizing: border-box;
+    background-image: linear-gradient( rgba(160, 185, 219, 0.408),rgba(235, 235, 246, 0.819));
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    overflow: hidden;
+}
+
+.LightGrid img {
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.LightGrid img:hover {
+    filter: opacity(0.5);
+    box-shadow: 4px 4px 10px rgba(38, 38, 38, 0.362);
+    cursor: pointer;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-filter: opacity(0.5);
+}
+
+.LightGrid h5 {
+    background-image: linear-gradient( rgba(160, 185, 219, 0.408),rgba(235, 235, 246, 0.819));
+    color: black;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: -4rem;
+}
+
+.WhiteCardsContainer {
+    padding: .6rem;
+}
+
+.WhiteCards {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    height: 7.5rem;
+    padding: .8rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-align: left !important;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 4px 2px 12px -2px rgba(0,0,0,0.79);
+    -webkit-box-shadow: 4px 2px 12px -2px rgba(0,0,0,0.79);
+    -moz-box-shadow: 4px 2px 12px -2px rgba(0,0,0,0.79);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: transform 0.4s ease-in-out;
+    -moz-transition: transform 0.4s ease-in-out;
+    -ms-transition: transform 0.4s ease-in-out;
+    -o-transition: transform 0.4s ease-in-out;
+}
+
+.WhiteCards:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.WhiteCards h5 {
+    text-align: left;
+    background: none;
+    margin: 0;
+    color: #3f9db7
+}
+
+.WhiteCards p, .WhiteCards ul li {
+    font-size: .7rem;
+    color: #0C457F;
+    margin: 0;
+    line-height: 1;
+}
+
+.AccordionContainer {
+    width: 100vw;
+    padding: 3rem 15rem;
+    box-sizing: border-box;
+    background-image: linear-gradient( rgb(160, 185, 219),rgba(235, 235, 246, 0.989));
+}
+
+.Accordion {
+    background-color: #0C457F !important;
+    box-shadow: 10px 10px 10px rgba(75, 75, 135, 0.555) !important;
+    border-radius: 40px !important;
+    padding: 0 1rem;
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    -ms-border-radius: 40px !important;
+    -o-border-radius: 40px !important;
+}
+
+
+/* Smaller Screens */
+@media (max-width: 900px)  {
+
+    .AccordionContainer,
+    .LightGrid {
+        padding: 1rem 1rem ;
+    }
+
+    .LeftGrid {
+        display: none;
+    }
+
+    .TopbarRightGrid {
+        padding-top: 2rem !important;
+    }
+    .SecondGridBoxes {
+        width: 60%;
+    }
+
+    .LightGrid {
+        padding-top: 2rem;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+    
+}
+
+/* #0C457F
+#010148 */

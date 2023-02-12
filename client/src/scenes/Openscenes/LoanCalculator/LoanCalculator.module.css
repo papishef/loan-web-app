@@ -1,0 +1,118 @@
+.TopGrid {
+    width: 100vw;
+    margin-top: 4.9rem !important;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: linear-gradient( rgba(160, 185, 219, 0.408),rgba(235, 235, 246, 0.819));
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+
+.TopContainer {
+    height: 16rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.EachSlide {
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.CalcWrapper {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom right, #1CB5DE, #0C457F, #010148);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.CalcWrapper ul {
+    border-radius: 2px;
+    border: outset;
+    box-sizing: border-box;
+    padding: 2rem;
+    background-color: rgb(240, 240, 240);
+    text-align: left;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #010148;
+    width: 100%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.CalcWrapper ul li {
+    margin-bottom: 7px;
+}
+
+.CalcContainer {
+    background-color: #0C457F;
+    box-shadow: -4px -2px 4px rgba(59, 59, 59, 0.353);
+    box-sizing: border-box;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    padding: 2rem;
+}
+
+.CloseIcon {
+    border: 3px solid #0C457F;
+    box-sizing: border-box;
+    position: absolute;
+    top: -2.5rem;
+    right: -2.1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem !important;
+    color: #010148;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.CloseIcon:hover {
+    background-color: rgb(255, 255, 255);
+    border: 8px solid #0c457fcc;
+}
+
+
+/* Smaller Screens */
+@media (max-width: 800px)  {
+
+    .TopContainer {
+        height: 10rem;
+        margin-bottom: 15rem;
+    }
+    
+}

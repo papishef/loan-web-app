@@ -1,0 +1,149 @@
+.BigMenu {
+    width: 100%;
+    height: 3.125rem;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.Logo {
+    width: 12rem;
+}
+.ListItem {
+    color: #0C457F;
+    padding: 10px 25px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    box-sizing: border-box;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+
+.ListItem:hover {
+    transform: scale(1.07);
+    background-color: rgba(160, 185, 219, 0.273);
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}
+
+.Login {
+    background-color: #0C457F;
+    color: rgb(228, 238, 251);
+    padding: 10px 25px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.Login:hover {
+    color: #0C457F;
+    background-color: rgba(160, 185, 219, 0.273);
+}
+
+
+.SmallMenuNoDisplay,
+.SmallMenuBlock,
+.SmallMenuList {
+    display: none;
+}
+
+.SmallMenu {
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    height: 3.125rem;
+    display: flex;
+    z-index: 9999;
+    justify-content: space-around;
+    padding: 1.25rem 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/* Smaller Screens */
+@media (max-width: 900px)  {
+
+    .BigMenu {
+        display: none;
+    }
+
+    .SmallMenu {
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        height: 3.125rem;
+        display: flex;
+        z-index: 999;
+        justify-content: space-around;
+        padding: 1.25rem 0;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .SmallMenuBlock {
+        position: fixed;
+        top: 7rem;
+        width: 100%;
+        text-align: center;
+        z-index: 999;
+        display: block;
+        margin: -1.3rem 0 0 0;
+        padding: 0;
+        background-image: linear-gradient(to bottom right,#0C457F, #010148);
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+    }
+
+    .ListItemSmall {
+        display: block;
+        color: #27A1AA;
+        padding: 1.8rem 0;
+        border-bottom: 1px solid rgb(228, 238, 251);
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+    }
+
+    .ListItemSmall:hover {
+        transform: scale(1.15);
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        -o-transform: scale(1.15);
+    }
+
+    .Login {
+        display: block;
+        background-color: #27A1AA;
+        color: rgb(228, 238, 251);
+        padding: 2rem 0;
+        font-size: 1.15rem;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+    }
+
+    .Login:hover {
+        color: #27A1AA;
+        background-color: rgb(228, 238, 251);
+    }
+    
+}
+
